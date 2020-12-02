@@ -1,4 +1,4 @@
-# NaiveBayes_Clastering:            Wikiをtrainデータとtestデータにわけ、trainデータからtestデータのカテゴリを推定する試み
+# NaiveBayes_Clastering:Wikiをtrainデータとtestデータにわけ、trainデータからtestデータのカテゴリを推定する試み
 
 <br>#1.Wiki用の素性リストの作成<br>
 -プログラム名：mk_feature.py
