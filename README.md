@@ -21,7 +21,7 @@
           <li>参照：train用テキストデータ ＆ feature.list</li>
           <li>実行コマンド</li>
             <ul>
-              python3 bays_learn.py > model
+              <li>python3 bays_learn.py > model</li>
             </ul>
         </ul>
       <h3>3.学習済み確率モデルから新規ページ(テストページ)がどのカテゴリかを識別</h3>
@@ -30,7 +30,7 @@
         <li>参照：model & testページ & feature.list</li>
         <li>実行コマンド</li>
           <ul>
-            python3 bays_classify.py
+            <li>python3 bays_classify.py</li>
           </ul>
         <li>出力：各ページ毎に、識別したカテゴリと確率のlog(尤度)の表示</li>  
        </ul>
