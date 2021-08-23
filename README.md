@@ -5,7 +5,7 @@
   </head>
   
   <body>
-      <h1>NaiveBayes_Clastering:<br>--Wikiをtrainデータとtestデータにわけ、trainデータからtestデータのカテゴリを推定する試み</h1>
+      <h1>NaiveBayes_Clastering:<br><em>Wikiをtrainデータとtestデータにわけ、trainデータからtestデータのカテゴリを推定する試み</em></h1>
       <h3>1.Wiki用の素性リストの作成</h3>
         <ul>
           <li>プログラム名：mk_feature.py</li>
