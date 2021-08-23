@@ -1,4 +1,3 @@
-#NaiveBayes_Clastering:Wikiをtrainデータとtestデータにわけ、trainデータからtestデータのカテゴリを推定する試み
 <!Doctype html>
 <html lang="ja">
   <head>
@@ -6,33 +5,27 @@
   </head>
   
   <body>
-      <h1>Wiki用の素性リストの作成</h1>
+      <h1>NaiveBayes_Clastering:Wikiをtrainデータとtestデータにわけ、trainデータからtestデータのカテゴリを推定する試み</h1>
+      <h3>Wiki用の素性リストの作成</h3>
         <ul>
           <li>プログラム名：mk_feature.py</li>
-
           <li>参照：Wikiのtrain用のテキストデータ</li>
-
           <li>実行コマンド</li>
             <ul>
               <li>python3 mk_feature.py > feature.list</li>
             </ul>
         </ul>
-    
-    
-    <h1>train用テキストデータによるナイーブベイズ手法の確率モデルを構築</h1>
-    
-      <ul>
-        <li>プログラム名：bays_learn.py</li>
 
-        <li>参照：train用テキストデータ ＆ feature.list</li>
-
-        <li>実行コマンド</li>
-          <ul>
-            python3 bays_learn.py > model
-          </ul>
-      </ul>
-    
-    <h1>学習済み確率モデルから新規ページ(テストページ)がどのカテゴリかを識別</h1>
+      <h3>train用テキストデータによるナイーブベイズ手法の確率モデルを構築</h3>
+        <ul>
+          <li>プログラム名：bays_learn.py</li>
+          <li>参照：train用テキストデータ ＆ feature.list</li>
+          <li>実行コマンド</li>
+            <ul>
+              python3 bays_learn.py > model
+            </ul>
+        </ul>
+      <h3>学習済み確率モデルから新規ページ(テストページ)がどのカテゴリかを識別</h3>
     
       <ul>
         <li>プログラム名：bays_classify.py</li>
@@ -51,14 +44,14 @@
     
     
     
-    <h1>環境構築編　Ubuntu(Linux)対応></h1>
+    <h3>環境構築編　Ubuntu(Linux)対応></h3>
       <ol>
        <li>sudo apt update</li> 
         <li>sudo apt upgrade</li>
         <li>sudo apt install vim lv dbus-x11 gconf2 p7zip-full fonts-ipafont gcc g++ make emacs emacs-mozc mecab mecab-ipadic-utf8 swig</li>
       </ol>
   
-    <h1>Pythonの設定編</h1>
+    <h3>Pythonの設定編</h3>
     <ol>
       <li>sudo apt install python3-pip python3-dev</li>
       <li>sudo pip3 install --upgrade pip numpy scikit-learn gensim h5py joblib paramiko mecab-python3 tensorflow keras</li>
