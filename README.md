@@ -5,7 +5,7 @@
   </head>
   
   <body>
-      <h1>NaiveBayes_Clastering:Wikiをtrainデータとtestデータにわけ、trainデータからtestデータのカテゴリを推定する試み</h1>
+      <h1>NaiveBayes_Clastering:<br>Wikiをtrainデータとtestデータにわけ、trainデータからtestデータのカテゴリを推定する試み</h1>
       <h3>1.Wiki用の素性リストの作成</h3>
         <ul>
           <li>プログラム名：mk_feature.py</li>
@@ -35,13 +35,13 @@
         <li>出力：各ページ毎に、識別したカテゴリと確率のlog(尤度)の表示</li>  
        </ul>
    </ol>
-   <h3>extra.環境構築編　Ubuntu(Linux)対応></h3>
+   <h3>extra1.環境構築編　Ubuntu(Linux)対応></h3>
      <ol>
       <li>sudo apt update</li> 
        <li>sudo apt upgrade</li>
        <li>sudo apt install vim lv dbus-x11 gconf2 p7zip-full fonts-ipafont gcc g++ make emacs emacs-mozc mecab mecab-ipadic-utf8 swig</li>
      </ol>
-   <h3>extra.Pythonの設定編</h3>
+   <h3>extra2.Pythonの設定編</h3>
    <ol>
      <li>sudo apt install python3-pip python3-dev</li>
      <li>sudo pip3 install --upgrade pip numpy scikit-learn gensim h5py joblib paramiko mecab-python3 tensorflow keras</li>
