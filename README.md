@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://kotaro666-dev.github.io/portfolio-demo/style.css"/>
+    <!--<link rel="stylesheet" href="https://kotaro666-dev.github.io/portfolio-demo/style.css"/>-->
   </head>
   
   <body>
